@@ -1,0 +1,14 @@
+# Ignore local file history extensions
+**/.history/
+
+# Ignore KiCad auto-restore backup folders
+**/_restore_backup_*/
+
+# Standard KiCad project local files
+*.kicad_prl
+*.bak
+*-bak
+*-bak.kicad_sch
+*-bak.kicad_pcb
+*.lck
+fp-info-cache
