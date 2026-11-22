@@ -554,7 +554,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "UI.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -639,12 +639,54 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -689,7 +731,7 @@
         "uuid": "94751e7c-9c1e-4094-8a3d-ec1e4b1e852b"
       }
     ],
-    "used_designators": "#GND1,R1-18,JDisplay2,J1-4,JButton2-5,Q1-6,JPot2-3,U1-5",
+    "used_designators": "R1-18,#GND1-2,JDisplay2,J1-4,JButton2-5,Q1-6,JPot2-3,U1-5,BZ1",
     "variants": []
   },
   "sheets": [
@@ -699,7 +741,47 @@
     ],
     [
       "8836dceb-6899-41f1-8303-102318e9ca12",
-      "Latching LED Button"
+      "Latching LED Button1"
+    ],
+    [
+      "b6c87fa7-278f-474f-a964-d577c8962e91",
+      "Latching LED Button2"
+    ],
+    [
+      "7bcaf427-bb7c-4bd6-834d-c06f1d9e449b",
+      "Latching LED Button3"
+    ],
+    [
+      "21c77c98-b46b-419a-8e65-e71f11aead2c",
+      "Latching LED Button4"
+    ],
+    [
+      "d0b2e5f3-4d03-4894-ba44-6645392a910a",
+      "ROT Reading1"
+    ],
+    [
+      "2f2ed2f8-9264-4d8d-b6af-9de92b06f13b",
+      "Latching LED Button5"
+    ],
+    [
+      "f995a467-d695-404d-ada1-7e8aac047fce",
+      "Pilot Light1"
+    ],
+    [
+      "62ec0b6f-1d08-4c33-9347-b673e8497731",
+      "ROT Reading2"
+    ],
+    [
+      "27969e86-c66c-4bd6-b74c-66d323ceaf87",
+      "ROT Reading3"
+    ],
+    [
+      "454ec859-17e0-4dc5-ab1b-ea43dd8d99ce",
+      "Pilot Light2"
+    ],
+    [
+      "b015512f-8847-45ef-a855-64e9e5674101",
+      "Pilot Light3"
     ]
   ],
   "text_variables": {},

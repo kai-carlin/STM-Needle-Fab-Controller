@@ -1,11 +1,11 @@
 {
   "custom_cursors": 2,
-  "last_sch_text_sim_command": ".tran 5n 1m",
+  "last_sch_text_sim_command": ".tran 2.5n 500u",
   "tabs": [
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 5n 1m",
+        ".tran 2.5n 500u",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,8 +22,32 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 0.00020006999225261415,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "I(Rload1)",
+          "trace_type": 258
+        },
+        {
           "color": "rgb(166, 86, 40)",
           "signal": "V(/COMP_OUT)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/GPIO_Reset)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/Latch)",
           "trace_type": 257
         },
         {
